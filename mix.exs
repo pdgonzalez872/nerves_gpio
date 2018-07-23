@@ -49,6 +49,7 @@ defmodule NervesBasicSkeleton.MixProject do
     [
       {:nerves_runtime, "~> 0.4"},
       {:nerves_init_gadget, "~> 0.3"},
+      {:elixir_ale, "~> 1.0"},
     ] ++ system(target)
   end
 
