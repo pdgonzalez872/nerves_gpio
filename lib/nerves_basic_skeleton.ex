@@ -13,6 +13,6 @@ defmodule NervesBasicSkeleton do
 
   """
   def hello do
-    :world
+    :kels
   end
 end

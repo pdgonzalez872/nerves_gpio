@@ -16,8 +16,8 @@ config :nerves_firmware_ssh,
 config :nerves_basic_skeleton, interface: :wlan0, port: 4001
 
 config :nerves_init_gadget,
-  node_name: :gpio,
-  mdns_domain: "nerves_gpio.local",
+  node_name: :base_target,
+  mdns_domain: "nerves_base.local",
   address_method: :dhcp,
   ifname: "wlan0"
 
