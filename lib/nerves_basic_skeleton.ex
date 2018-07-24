@@ -34,11 +34,11 @@ defmodule NervesBasicSkeleton do
 
   def turn_on(pid) do
     Logger.debug("Turning pin #{@output_pin} ON")
-    GPIO.write(output_pid, 1)
+    GPIO.write(pid, 1)
   end
 
   def turn_off(pid) do
     Logger.debug("Turning pin #{@output_pin} OFF")
-    GPIO.write(output_pid, 0)
+    GPIO.write(pid, 0)
   end
 end
