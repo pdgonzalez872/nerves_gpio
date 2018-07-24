@@ -1,7 +1,7 @@
 {application,nerves_basic_skeleton,
              [{applications,[kernel,stdlib,elixir,logger,runtime_tools,
                              nerves_runtime,elixir_ale,nerves_init_gadget,
-                             shoehorn]},
+                             shoehorn,ui]},
               {description,"nerves_basic_skeleton"},
               {modules,['Elixir.NervesBasicSkeleton',
                         'Elixir.NervesBasicSkeleton.Application']},

@@ -13,7 +13,7 @@ defmodule NervesBasicSkeleton do
 
   """
   def hello do
-    :yay
+    :phoenix
   end
 
   ## This is Frank's code
