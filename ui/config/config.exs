@@ -13,6 +13,14 @@ config :ui, UiWeb.Endpoint,
   pubsub: [name: Ui.PubSub,
            adapter: Phoenix.PubSub.PG2]
 
+# Configures Drab
+config :drab, UiWeb.Endpoint,
+  otp_app: :ui
+
+# Configures default Drab file extension
+config :phoenix, :template_engines,
+  drab: Drab.Live.Engine
+
 # Configures Elixir's Logger
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",

@@ -1,5 +1,6 @@
 defmodule UiWeb.UserSocket do
   use Phoenix.Socket
+  use Drab.Socket
 
   ## Channels
   # channel "room:*", UiWeb.RoomChannel

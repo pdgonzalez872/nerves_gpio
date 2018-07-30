@@ -36,7 +36,7 @@ config :ui, UiWeb.Endpoint,
       ~r{priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$},
       ~r{priv/gettext/.*(po)$},
       ~r{lib/ui_web/views/.*(ex)$},
-      ~r{lib/ui_web/templates/.*(eex)$}
+      ~r{lib/ui_web/templates/.*(eex|drab)$}
     ]
   ]
 
