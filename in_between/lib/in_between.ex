@@ -1,4 +1,4 @@
-defmodule InBetween do
+defmodule InBetween.GPIO do
   ## This is Frank's code
 
   require Logger
@@ -11,7 +11,6 @@ defmodule InBetween do
   def new_led_pid() do
     Logger.info("Starting pin #{@output_pin} as output")
     {:ok, output_pid} = GPIO.start_link(@output_pin, :output)
-    #spawn(fn -> toggle_pin_forever(output_pid) end)
     output_pid
   end
 
