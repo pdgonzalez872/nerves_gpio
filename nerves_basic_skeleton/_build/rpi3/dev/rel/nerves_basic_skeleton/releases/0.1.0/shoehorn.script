@@ -1,5 +1,5 @@
 %% coding: utf-8
-%% script generated at {2018,7,24} {8,42,29}
+%% script generated at {2018,7,24} {16,0,52}
 {script,
     {"shoehorn","0.1.0"},
     [{preLoaded,
@@ -295,6 +295,8 @@
           'Elixir.Mix.Tasks.Compile.Gettext',
           'Elixir.Mix.Tasks.Gettext.Extract','Elixir.Mix.Tasks.Gettext.Merge',
           gettext_po_parser]},
+     {path,["$ROOT/lib/in_between-0.1.0/ebin"]},
+     {primLoad,['Elixir.InBetween']},
      {path,["$ROOT/lib/phoenix_pubsub-1.0.2/ebin"]},
      {primLoad,
          ['Elixir.Phoenix.PubSub','Elixir.Phoenix.PubSub.BroadcastError',
@@ -505,7 +507,7 @@
           "$ROOT/lib/nerves_network_interface-0.4.4/ebin",
           "$ROOT/lib/nerves_network-0.3.6/ebin",
           "$ROOT/lib/nerves_init_gadget-0.4.0/ebin",
-          "$ROOT/lib/gettext-0.15.0/ebin",
+          "$ROOT/lib/gettext-0.15.0/ebin","$ROOT/lib/in_between-0.1.0/ebin",
           "$ROOT/lib/phoenix_pubsub-1.0.2/ebin","$ROOT/lib/ssl-8.2.6/ebin",
           "$ROOT/lib/ranch-1.3.2/ebin","$ROOT/lib/cowlib-1.0.2/ebin",
           "$ROOT/lib/cowboy-1.1.2/ebin","$ROOT/lib/mime-1.3.0/ebin",

@@ -27,6 +27,7 @@
           {nerves_network_interface,"0.4.4",none},
           {ui,"0.0.1",none},
           {gettext,"0.15.0",none},
+          {in_between,"0.1.0",none},
           {phoenix_pubsub,"1.0.2",none},
           {cowboy,"1.1.2",none},
           {ranch,"1.3.2",none},
