@@ -1,7 +1,9 @@
 {application,in_between,
-             [{applications,[kernel,stdlib,elixir,logger]},
+             [{applications,[kernel,stdlib,elixir,logger,elixir_ale]},
               {description,"in_between"},
-              {modules,['Elixir.InBetween']},
+              {modules,['Elixir.InBetween','Elixir.InBetween.GPIO',
+                        'Elixir.InBetween.Worker']},
               {registered,[]},
               {vsn,"0.1.0"},
-              {extra_applications,[logger]}]}.
+              {extra_applications,[logger]},
+              {mod,{'Elixir.InBetween',[]}}]}.

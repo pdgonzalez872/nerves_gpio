@@ -38,4 +38,13 @@
           {mime,"1.3.0",none},
           {phoenix,"1.3.3",none},
           {poison,"3.1.0",none},
-          {eex,"1.6.5",none}]}.
+          {eex,"1.6.5",none},
+          {drab,"0.9.1",none},
+          {deppie,"1.1.0",none},
+          {floki,"0.20.3",none},
+          {mochiweb,"2.18.0",none},
+          {inets,"6.5.2",none},
+          {xmerl,"1.3.16",none},
+          {syntax_tools,"2.1.4",none},
+          {html_entities,"0.4.0",none},
+          {jason,"1.1.1",none}]}.

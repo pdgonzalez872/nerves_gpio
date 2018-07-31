@@ -1,7 +1,7 @@
 {application,ui,
              [{applications,[kernel,stdlib,elixir,logger,runtime_tools,
                              gettext,in_between,phoenix_pubsub,cowboy,
-                             phoenix_html,phoenix]},
+                             phoenix_html,phoenix,drab]},
               {description,"ui"},
               {modules,['Elixir.Ui','Elixir.Ui.Application','Elixir.UiWeb',
                         'Elixir.UiWeb.Endpoint','Elixir.UiWeb.ErrorHelpers',
