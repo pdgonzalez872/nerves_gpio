@@ -1,5 +1,5 @@
 %% coding: utf-8
-%% script generated at {2018,7,30} {14,58,27}
+%% script generated at {2018,7,31} {12,16,18}
 {script,
     {"nerves_basic_skeleton","0.1.0"},
     [{preLoaded,
@@ -298,7 +298,7 @@
      {path,["$ROOT/lib/in_between-0.1.0/ebin"]},
      {primLoad,
          ['Elixir.InBetween','Elixir.InBetween.GPIO',
-          'Elixir.InBetween.Worker']},
+          'Elixir.InBetween.GPIOAgent','Elixir.InBetween.Worker']},
      {path,["$ROOT/lib/phoenix_pubsub-1.0.2/ebin"]},
      {primLoad,
          ['Elixir.Phoenix.PubSub','Elixir.Phoenix.PubSub.BroadcastError',
@@ -1331,6 +1331,7 @@
                    {id,[]},
                    {modules,
                        ['Elixir.InBetween','Elixir.InBetween.GPIO',
+                        'Elixir.InBetween.GPIOAgent',
                         'Elixir.InBetween.Worker']},
                    {registered,[]},
                    {applications,[kernel,stdlib,elixir,logger,elixir_ale]},

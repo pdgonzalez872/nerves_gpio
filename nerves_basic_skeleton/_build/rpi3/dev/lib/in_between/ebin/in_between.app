@@ -2,6 +2,7 @@
              [{applications,[kernel,stdlib,elixir,logger,elixir_ale]},
               {description,"in_between"},
               {modules,['Elixir.InBetween','Elixir.InBetween.GPIO',
+                        'Elixir.InBetween.GPIOAgent',
                         'Elixir.InBetween.Worker']},
               {registered,[]},
               {vsn,"0.1.0"},

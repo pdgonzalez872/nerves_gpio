@@ -8,8 +8,9 @@ defmodule InBetween do
       worker(InBetween.Worker, [InBetween.Worker]),
     ]
 
-    IO.puts "In start"
-    IO.puts "yay"
+    IO.puts "Starting Agent"
+    InBetween.GPIOAgent.start_link("this string is not used")
+    IO.puts "Started Agent"
 
     opts = [strategy: :one_for_one, name: InBetween.Supervisor]
     Supervisor.start_link(children, opts)
