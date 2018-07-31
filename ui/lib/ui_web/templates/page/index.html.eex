@@ -1,0 +1,4 @@
+<div class="jumbotron">
+  <p><%= link("turn on", to: "/turn_on") %></p>
+  <p><%= link("turn off", to: "/turn_off") %></p>
+</div>

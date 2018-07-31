@@ -17,6 +17,8 @@ defmodule UiWeb.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    get "/turn_on", PageController, :turn_on
+    get "/turn_off", PageController, :turn_off
   end
 
   # Other scopes may use custom stacks.

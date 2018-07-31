@@ -1,5 +1,0 @@
-<div class="jumbotron">
-  <p class="lead">text</p>
-  <button class="btn btn-primary" drab-click="turn_on()">Turn On</button><br>
-  <button class="btn btn-primary" drab-click="turn_off()">Turn Off</button><br>
-</div>
