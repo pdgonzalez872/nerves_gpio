@@ -8,6 +8,9 @@ defmodule InBetween do
       worker(InBetween.Worker, [InBetween.Worker]),
     ]
 
+    IO.puts "In start"
+    IO.puts "yay"
+
     opts = [strategy: :one_for_one, name: InBetween.Supervisor]
     Supervisor.start_link(children, opts)
   end
