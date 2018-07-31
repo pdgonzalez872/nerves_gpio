@@ -7,6 +7,7 @@
                         'Elixir.UiWeb.Endpoint','Elixir.UiWeb.ErrorHelpers',
                         'Elixir.UiWeb.ErrorView','Elixir.UiWeb.Gettext',
                         'Elixir.UiWeb.LayoutView',
+                        'Elixir.UiWeb.PageCommander',
                         'Elixir.UiWeb.PageController','Elixir.UiWeb.PageView',
                         'Elixir.UiWeb.Router','Elixir.UiWeb.Router.Helpers',
                         'Elixir.UiWeb.UserSocket']},

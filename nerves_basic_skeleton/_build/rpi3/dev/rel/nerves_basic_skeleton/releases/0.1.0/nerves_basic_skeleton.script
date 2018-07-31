@@ -1,5 +1,5 @@
 %% coding: utf-8
-%% script generated at {2018,7,31} {12,16,18}
+%% script generated at {2018,7,31} {12,42,30}
 {script,
     {"nerves_basic_skeleton","0.1.0"},
     [{preLoaded,
@@ -584,9 +584,10 @@
          ['Elixir.Ui','Elixir.Ui.Application','Elixir.UiWeb',
           'Elixir.UiWeb.Endpoint','Elixir.UiWeb.ErrorHelpers',
           'Elixir.UiWeb.ErrorView','Elixir.UiWeb.Gettext',
-          'Elixir.UiWeb.LayoutView','Elixir.UiWeb.PageController',
-          'Elixir.UiWeb.PageView','Elixir.UiWeb.Router',
-          'Elixir.UiWeb.Router.Helpers','Elixir.UiWeb.UserSocket']},
+          'Elixir.UiWeb.LayoutView','Elixir.UiWeb.PageCommander',
+          'Elixir.UiWeb.PageController','Elixir.UiWeb.PageView',
+          'Elixir.UiWeb.Router','Elixir.UiWeb.Router.Helpers',
+          'Elixir.UiWeb.UserSocket']},
      {path,["$ROOT/lib/nerves_basic_skeleton-0.1.0/ebin"]},
      {primLoad,
          ['Elixir.NervesBasicSkeleton',
@@ -1963,6 +1964,7 @@
                         'Elixir.UiWeb.Endpoint','Elixir.UiWeb.ErrorHelpers',
                         'Elixir.UiWeb.ErrorView','Elixir.UiWeb.Gettext',
                         'Elixir.UiWeb.LayoutView',
+                        'Elixir.UiWeb.PageCommander',
                         'Elixir.UiWeb.PageController','Elixir.UiWeb.PageView',
                         'Elixir.UiWeb.Router','Elixir.UiWeb.Router.Helpers',
                         'Elixir.UiWeb.UserSocket']},
